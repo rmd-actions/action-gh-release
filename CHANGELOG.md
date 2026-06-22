@@ -1,3 +1,28 @@
+## 3.0.0
+
+`3.0.0` is a major release that moves the action runtime from Node 20 to Node 24.
+Use `v3` on GitHub-hosted runners and self-hosted fleets that already support the
+Node 24 Actions runtime. If you still need the last Node 20-compatible line, stay on
+`v2.6.2`.
+
+## What's Changed
+
+### Other Changes 🔄
+
+* Move the action runtime and bundle target to Node 24
+* Update `@types/node` to the Node 24 line and allow future Dependabot updates
+* Keep the floating major tag on `v3`; `v2` remains pinned to the latest `2.x` release
+
+## 2.6.2
+
+## What's Changed
+
+### Other Changes 🔄
+
+* chore(deps): bump picomatch from 4.0.3 to 4.0.4 by @dependabot[bot] in https://github.com/softprops/action-gh-release/pull/775
+* chore(deps): bump brace-expansion from 5.0.4 to 5.0.5 by @dependabot[bot] in https://github.com/softprops/action-gh-release/pull/777
+* chore(deps): bump vite from 8.0.0 to 8.0.5 by @dependabot[bot] in https://github.com/softprops/action-gh-release/pull/781
+
 ## 2.6.1
 
 `2.6.1` is a patch release focused on restoring linked discussion thread creation when
