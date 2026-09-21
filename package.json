@@ -27,8 +27,8 @@
   "dependencies": {
     "@actions/core": "^3.0.1",
     "@actions/github": "^9.1.1",
-    "@octokit/plugin-retry": "^8.1.0",
-    "@octokit/plugin-throttling": "^11.0.3",
+    "@octokit/plugin-retry": "^8.1.1",
+    "@octokit/plugin-throttling": "^11.0.5",
     "glob": "^13.0.6",
     "mime-types": "^3.0.2"
   },
@@ -37,7 +37,7 @@
     "@types/node": "^24",
     "@vitest/coverage-v8": "^4.1.10",
     "esbuild": "^0.28.1",
-    "prettier": "3.9.5",
+    "prettier": "3.9.6",
     "typescript": "^7.0.2",
     "vitest": "^4.0.4"
   }
